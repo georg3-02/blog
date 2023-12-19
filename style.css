@@ -75,9 +75,27 @@ footer {
   width: 100%;
 }
 
+@media (max-width: 1083px) {
+  .album {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .album img {
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  .text_container {
+    font-size: 16px;
+    margin-left: 0;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
   .album {
+    flex-direction: column;
+    align-items: center;
     width: calc(100% - 40px); 
+    margin: 10px;
   }
   .album img {
     max-width: 100%; 
@@ -85,7 +103,8 @@ footer {
     object-fit: cover;
   }
   .text_container {
-    margin-top: 10px; 
-    font-size: 14px; 
+    font-size: 10px;
+    margin-left: 0;
+    text-align: center;
   }
 }
