@@ -1,1 +1,15 @@
-
+.content-well {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .text_container {
+    float: left;
+    width: 70%;
+  }
+  
+  .album {
+    float: left;
+    width: 30%;
+  }
