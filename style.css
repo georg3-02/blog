@@ -103,8 +103,14 @@ footer {
     object-fit: cover;
   }
   .text_container {
-    font-size: 10px;
+    font-size: 14px;
     margin-left: 0;
     text-align: center;
+  }
+  .text_container h1 {
+    font-weight: small;
+  }
+  .text_container h3 {
+    font-weight: smaller;
   }
 }
