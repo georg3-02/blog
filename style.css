@@ -75,21 +75,6 @@ footer {
   width: 100%;
 }
 
-@media (max-width: 1083px) {
-  .album {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .album img {
-    margin-bottom: 20px; /* Adjust as needed */
-  }
-  .text_container {
-    font-size: 16px;
-    margin-left: 0;
-    text-align: center;
-}
-
 @media (max-width: 768px) {
   .album {
     flex-direction: column;
@@ -112,5 +97,21 @@ footer {
   }
   .text_container h3 {
     font-weight: smaller;
+  }
+}
+
+@media (max-width: 1083px) {
+  .album {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .album img {
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  .text_container {
+    font-size: 16px;
+    margin-left: 0;
+    text-align: center;
   }
 }
