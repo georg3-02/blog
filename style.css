@@ -7,6 +7,7 @@ body {
 
 .masthead {
   display: flex;
+  flex-direction: column; 
   align-items: center;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.4);
@@ -15,10 +16,12 @@ body {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin-top: -10px;
+  margin: 5px;
 }
 
-.masthead img {
-  margin-right: 20px;
+.masthead p {
+  text-align: center; 
+  margin: 5px 0;
 }
 
 .text-content {
@@ -26,7 +29,7 @@ body {
 }
 
 .text-content h1 {
-  margin: 20px 0; 
+  margin: 5px 0; 
 }
 
 .content-well {
@@ -71,3 +74,16 @@ footer {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .album {
+    width: calc(100% - 40px); 
+  }
+  .album img {
+    max-width: 100%; 
+    height: auto; 
+  }
+  .text_container {
+    margin-top: 10px; 
+    font-size: 14px; 
+  }
+}
